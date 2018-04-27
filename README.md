@@ -1,3 +1,14 @@
+# How to Setup with iTerm2
+## iTerm2の導入
+- iTerm2をインストール
+
+## oh-my-zshの導入
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+## iTerm2のテーマをagnosterへ変更
+curl https://raw.githubusercontent.com/goto63/agnoster.zsh-theme/master/agnoster.zsh-theme \
+-o ~/.oh-my-zsh/themes/agnoster.zsh-theme
+
 # agnoster.zsh-theme
 Fixed theme with special characters for El Capitan 10.11
 
